@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cajero</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <section id="todo">
+        <section id="superior">
+            <section id="pantalla">
+                <div class="titulo">!Bienvenidos al banco!</div>
+                <div class="subtitulo">Por favor digite su clave
+                    <imput type="password" id="pass" placeholder="password"></imput><br>
+                    <input type="boton" onclick="ingresar()"><input>
+                    <button class="boton" onclick="login()">Login</button>
+                </div>
+                <section id="flechas">
+                    <section id="izquierda">
+                        <input type="image" src="/Caso.Cajero/img/flecha_izquierda.png" class="boton"><br>
+                        <input type="image" src="/Caso.Cajero/img/flecha_izquierda.png" class="boton"><br>
+                        <input type="image" src="/Caso.Cajero/img/flecha_izquierda.png" class="boton"><br>
+                    </section>
+                    <section id="derecha">
+                        <input type="image" src="/Caso.Cajero/img/flecha_derecha.png" class="boton"><br>
+                        <input type="image" src="/Caso.Cajero/img/flecha_derecha.png" class="boton"><br>
+                        <input type="image" src="/Caso.Cajero/img/flecha_derecha.png" class="boton"><br>
+                    </section>
+                </section>
+            </section>
+        </section>
+        <nav id="inferior">
+            <section id="botones">
+                <input type="button" value="1">
+                <input type="button" value="2">
+                <input type="button" value="3">
+                <input type="submit" value="CANCEL" id="cancel">
+                <br>
+                <input type="button" value="4">
+                <input type="button" value="5">
+                <input type="button" value="6">
+                <input type="submit" value="CLEAR" id="clear">
+                <br>
+                <input type="button" value="7">
+                <input type="button" value="8">
+                <input type="button" value="9">
+                <input type="submit" value="OK" id="ok">
+                <br>
+                <input type="button" value="-">
+                <input type="button" value="0">
+                <input type="button" value=".">
+                <input type="submit" value="" id="none">
+                <br>
+            </section>
+            <aside id="cajitas">
+                <section id="card">
+                    <p id="titulo">CARD</p>
+                <img src="img/emoticons.jpg" alt="">
+                </section>
+                <section id="receipt">
+                    <p id="titulo">RECEIPT</p>
+                <img src="img/emoticons.jpg" alt="">
+                </section>
+                <section id="cash">
+                    <p id="titulo">CASH</p>
+                    <img src="img/emoticons2.jpg" alt="">
+                </section>
+                <section id="deposit">
+                    <p id="titulo">DEPOSIT</p>
+                <img src="img/emoticons2.jpg" alt="">
+                </section> 
+            </aside>
+        </nav>
+    </section>
+</body>
+</html>
